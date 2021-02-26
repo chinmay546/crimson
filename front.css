@@ -1,0 +1,79 @@
+
+header {
+    width: 100%;
+    height: 5.5em;
+    margin-bottom: 20px;
+    background-image: url("./logo.png");
+    position: relative;
+}
+.head {
+    width: 100%;
+    height: 9em;
+  }
+.img {
+    height: 8em;
+    background-image: url('logo.png');
+    background-size: 100% 100%;
+    margin: auto;
+    width: 60%;
+}
+
+
+.med-cot{
+  background-image: url(./shywoman.jpg);
+ /* Location of the image */
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-attachment: fixed;
+ background-size: cover;
+
+}
+  
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0px;
+}
+
+/* Top left text */
+
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 1px;
+  width: 30%;
+  right: 0.6em;
+  text-align: left;
+  font-size: 0.9em;
+}
+.top-right, p {
+  overflow-y: hidden;
+  height: 87%;
+}
+
+.r-btn {
+  position: absolute;
+  top: 81%;
+  right: 5%;
+  font-size: 0.9em;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: all 1.5s ease;
+  -moz-transition: all 1.5s ease;
+  -o-transition: all 1.5s ease;
+  transition: all 1.5s ease;
+}
+.bg-color{
+  background-color: rgba(0, 0, 0, 0.637);
+}
